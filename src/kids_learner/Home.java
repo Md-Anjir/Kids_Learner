@@ -335,6 +335,8 @@ public class Home extends javax.swing.JFrame {
 
     private void alphaButtonMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_alphaButtonMousePressed
         // TODO add your handling code here:
+        
+        
        
     }//GEN-LAST:event_alphaButtonMousePressed
 
@@ -345,7 +347,7 @@ public class Home extends javax.swing.JFrame {
 
     private void alphaButtonMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_alphaButtonMouseEntered
         // TODO add your handling code here:
-       // alphaButton.setBackground(Color.pink);
+        alphaButton.setBackground(Color.pink);
     }//GEN-LAST:event_alphaButtonMouseEntered
 
     private void alphabetButtonMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_alphabetButtonMouseExited
@@ -355,7 +357,7 @@ public class Home extends javax.swing.JFrame {
     private void alphabetButtonMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_alphabetButtonMouseEntered
        
         //set text and bg color.........................
-      //   alphaButton.setBackground(Color.pink);
+         alphaButton.setBackground(Color.pink);
         t.setText("You can learn the English alphabet\n"
                 + " consisting of 26 letters, each having\n"
                 + " an upper- and lower-case form also learn\n"
@@ -366,13 +368,7 @@ public class Home extends javax.swing.JFrame {
 
     private void alphabetButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_alphabetButtonMouseClicked
         // TODO add your handling code here:
-        t.setText("Kids can learn the English .....\n"
-            + "alphabet consisting of 26 letters,\n"
-            + " each having an upper- and lower-case \n"
-            + "form also learn vowels and consonants. \n"
-            + "Besides kids can learn some essential\n"
-            + " words with realistic examples.");
-
+      
     }//GEN-LAST:event_alphabetButtonMouseClicked
 
     private void numberButtonMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_numberButtonMouseEntered
@@ -381,7 +377,7 @@ public class Home extends javax.swing.JFrame {
         t.setText("kids can learn English numbers with\n"
                 + " spelling"
                 + " and visualize the number.");
-    //    numberPanel.setBackground(Color.pink);
+        numberPanel.setBackground(Color.pink);
     }//GEN-LAST:event_numberButtonMouseEntered
 
     private void numberButtonMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_numberButtonMouseExited
@@ -395,14 +391,14 @@ public class Home extends javax.swing.JFrame {
 
     private void PracticeMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_PracticeMouseEntered
         // TODO add your handling code here:
-       //    practicePanel.setBackground(Color.pink);
-     //   t.setText("You can practice what you learned before");
+           practicePanel.setBackground(Color.pink);
+       t.setText("You can practice what you learned before");
     }//GEN-LAST:event_PracticeMouseEntered
 
     private void progressButtonMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_progressButtonMouseEntered
         // TODO add your handling code here: 
-    //    progressPanel.setBackground(Color.pink);
-    //    t.setText("Guardians can show their \nkids’ progress.");
+       progressPanel.setBackground(Color.pink);
+       t.setText("Guardians can show their \nkids’ progress.");
     }//GEN-LAST:event_progressButtonMouseEntered
 
     private void numberPanelMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_numberPanelMouseEntered
@@ -412,7 +408,7 @@ public class Home extends javax.swing.JFrame {
 
     private void numberPanelMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_numberPanelMouseExited
         // TODO add your handling code here:
-       // numberPanel.setBackground(Color.white);
+        numberPanel.setBackground(Color.white);
     }//GEN-LAST:event_numberPanelMouseExited
 
     private void mathButtonMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_mathButtonMouseExited
