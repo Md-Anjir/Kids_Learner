@@ -4,6 +4,11 @@
  */
 package kids_learner;
 
+import java.awt.Dimension;
+import java.awt.Image;
+import java.io.File;
+import javax.swing.ImageIcon;
+
 /**
  *
  * @author ASus
@@ -15,7 +20,9 @@ public class Alphabet extends javax.swing.JFrame {
      */
     public Alphabet() {
         initComponents();
+        
     }
+
 
     /**
      * This method is called from within the constructor to initialize the form.
@@ -56,6 +63,7 @@ public class Alphabet extends javax.swing.JFrame {
         X = new javax.swing.JButton();
         D = new javax.swing.JButton();
         jPanel3 = new javax.swing.JPanel();
+        ImageView = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(102, 255, 102));
@@ -90,6 +98,11 @@ public class Alphabet extends javax.swing.JFrame {
         L.setText("L");
         L.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(0, 51, 204)));
         L.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        L.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                LActionPerformed(evt);
+            }
+        });
 
         J.setBackground(new java.awt.Color(153, 153, 255));
         J.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
@@ -97,6 +110,11 @@ public class Alphabet extends javax.swing.JFrame {
         J.setText("J");
         J.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(0, 51, 204)));
         J.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        J.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                JActionPerformed(evt);
+            }
+        });
 
         M.setBackground(new java.awt.Color(153, 153, 255));
         M.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
@@ -104,6 +122,11 @@ public class Alphabet extends javax.swing.JFrame {
         M.setText("M");
         M.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(0, 51, 204)));
         M.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        M.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                MActionPerformed(evt);
+            }
+        });
 
         N.setBackground(new java.awt.Color(153, 153, 255));
         N.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
@@ -111,6 +134,11 @@ public class Alphabet extends javax.swing.JFrame {
         N.setText("N");
         N.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(0, 51, 204)));
         N.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        N.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                NActionPerformed(evt);
+            }
+        });
 
         E.setBackground(new java.awt.Color(153, 153, 255));
         E.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
@@ -286,6 +314,11 @@ public class Alphabet extends javax.swing.JFrame {
         U.setText("U");
         U.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(0, 51, 204)));
         U.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        U.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                UActionPerformed(evt);
+            }
+        });
 
         Z.setBackground(new java.awt.Color(153, 153, 255));
         Z.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
@@ -305,6 +338,11 @@ public class Alphabet extends javax.swing.JFrame {
         S.setText("S");
         S.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(0, 51, 204)));
         S.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        S.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                SActionPerformed(evt);
+            }
+        });
 
         V.setBackground(new java.awt.Color(153, 153, 255));
         V.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
@@ -312,6 +350,11 @@ public class Alphabet extends javax.swing.JFrame {
         V.setText("V");
         V.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(0, 51, 204)));
         V.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        V.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                VActionPerformed(evt);
+            }
+        });
 
         W.setBackground(new java.awt.Color(153, 153, 255));
         W.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
@@ -319,6 +362,11 @@ public class Alphabet extends javax.swing.JFrame {
         W.setText("W");
         W.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(0, 51, 204)));
         W.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        W.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                WActionPerformed(evt);
+            }
+        });
 
         X.setBackground(new java.awt.Color(153, 153, 255));
         X.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
@@ -456,15 +504,20 @@ public class Alphabet extends javax.swing.JFrame {
 
         jPanel3.setBackground(new java.awt.Color(153, 0, 153));
 
+        ImageView.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kids_learner/Images/0.jpeg"))); // NOI18N
+        ImageView.setMaximumSize(new java.awt.Dimension(700, 500));
+        ImageView.setMinimumSize(new java.awt.Dimension(300, 200));
+        ImageView.setPreferredSize(new java.awt.Dimension(700, 500));
+
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 787, Short.MAX_VALUE)
+            .addComponent(ImageView, javax.swing.GroupLayout.DEFAULT_SIZE, 787, Short.MAX_VALUE)
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 416, Short.MAX_VALUE)
+            .addComponent(ImageView, javax.swing.GroupLayout.DEFAULT_SIZE, 416, Short.MAX_VALUE)
         );
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
@@ -506,78 +559,116 @@ public class Alphabet extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
+    
     private void DActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DActionPerformed
-        // TODO add your handling code here:
+
+        ImageView.setIcon(new ImageIcon(Alphabet.class.getResource("/kids_learner/Images/D.png")));
     }//GEN-LAST:event_DActionPerformed
 
     private void XActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_XActionPerformed
-        // TODO add your handling code here:
+
+        ImageView.setIcon(new ImageIcon(Alphabet.class.getResource("/kids_learner/Images/X.png")));
     }//GEN-LAST:event_XActionPerformed
 
     private void ZActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ZActionPerformed
-        // TODO add your handling code here:
+
+        ImageView.setIcon(new ImageIcon(Alphabet.class.getResource("/kids_learner/Images/Z.png")));
     }//GEN-LAST:event_ZActionPerformed
 
     private void TActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TActionPerformed
-        // TODO add your handling code here:
+        ImageView.setIcon(new ImageIcon(Alphabet.class.getResource("/kids_learner/Images/T.png")));
     }//GEN-LAST:event_TActionPerformed
 
     private void YActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_YActionPerformed
-        // TODO add your handling code here:
+
+        ImageView.setIcon(new ImageIcon(Alphabet.class.getResource("/kids_learner/Images/Y.png")));
     }//GEN-LAST:event_YActionPerformed
 
     private void CActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CActionPerformed
-        // TODO add your handling code here:
+
+        ImageView.setIcon(new ImageIcon(Alphabet.class.getResource("/kids_learner/Images/C.png")));
     }//GEN-LAST:event_CActionPerformed
 
     private void BActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BActionPerformed
         // TODO add your handling code here:
+        ImageView.setIcon(new ImageIcon(Alphabet.class.getResource("/kids_learner/Images/B.png")));
     }//GEN-LAST:event_BActionPerformed
 
     private void AActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AActionPerformed
-        // TODO add your handling code here:
+    ImageView.setIcon(new ImageIcon(Alphabet.class.getResource("/kids_learner/Images/A.png")));
     }//GEN-LAST:event_AActionPerformed
 
     private void RActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RActionPerformed
-        // TODO add your handling code here:
+        ImageView.setIcon(new ImageIcon(Alphabet.class.getResource("/kids_learner/Images/R.png")));
     }//GEN-LAST:event_RActionPerformed
 
     private void IActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_IActionPerformed
-        // TODO add your handling code here:
+        ImageView.setIcon(new ImageIcon(Alphabet.class.getResource("/kids_learner/Images/I.png")));
     }//GEN-LAST:event_IActionPerformed
 
     private void QActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_QActionPerformed
-        // TODO add your handling code here:
+        ImageView.setIcon(new ImageIcon(Alphabet.class.getResource("/kids_learner/Images/Q.png")));
     }//GEN-LAST:event_QActionPerformed
 
     private void HActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_HActionPerformed
-        // TODO add your handling code here:
+        ImageView.setIcon(new ImageIcon(Alphabet.class.getResource("/kids_learner/Images/H.png")));
     }//GEN-LAST:event_HActionPerformed
 
     private void PActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PActionPerformed
-        // TODO add your handling code here:
+        ImageView.setIcon(new ImageIcon(Alphabet.class.getResource("/kids_learner/Images/P.png")));
     }//GEN-LAST:event_PActionPerformed
 
     private void FActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_FActionPerformed
-        // TODO add your handling code here:
+        ImageView.setIcon(new ImageIcon(Alphabet.class.getResource("/kids_learner/Images/F.png")));
     }//GEN-LAST:event_FActionPerformed
 
     private void GActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_GActionPerformed
-        // TODO add your handling code here:
+        ImageView.setIcon(new ImageIcon(Alphabet.class.getResource("/kids_learner/Images/G.png")));
     }//GEN-LAST:event_GActionPerformed
 
     private void OActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_OActionPerformed
-        // TODO add your handling code here:
+        ImageView.setIcon(new ImageIcon(Alphabet.class.getResource("/kids_learner/Images/O.png")));
     }//GEN-LAST:event_OActionPerformed
 
     private void EActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_EActionPerformed
-        // TODO add your handling code here:
+        ImageView.setIcon(new ImageIcon(Alphabet.class.getResource("/kids_learner/Images/E.png")));
     }//GEN-LAST:event_EActionPerformed
 
     private void KActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_KActionPerformed
-        // TODO add your handling code here:
+        ImageView.setIcon(new ImageIcon(Alphabet.class.getResource("/kids_learner/Images/K.png")));
     }//GEN-LAST:event_KActionPerformed
+
+    private void JActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JActionPerformed
+        ImageView.setIcon(new ImageIcon(Alphabet.class.getResource("/kids_learner/Images/A.png")));
+    }//GEN-LAST:event_JActionPerformed
+
+    private void MActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MActionPerformed
+       ImageView.setIcon(new ImageIcon(Alphabet.class.getResource("/kids_learner/Images/M.png")));
+    }//GEN-LAST:event_MActionPerformed
+
+    private void NActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_NActionPerformed
+        ImageView.setIcon(new ImageIcon(Alphabet.class.getResource("/kids_learner/Images/N.png")));
+    }//GEN-LAST:event_NActionPerformed
+
+    private void LActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LActionPerformed
+        ImageView.setIcon(new ImageIcon(Alphabet.class.getResource("/kids_learner/Images/L.png")));
+    }//GEN-LAST:event_LActionPerformed
+
+    private void SActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SActionPerformed
+        ImageView.setIcon(new ImageIcon(Alphabet.class.getResource("/kids_learner/Images/S.png")));
+    }//GEN-LAST:event_SActionPerformed
+
+    private void UActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_UActionPerformed
+        ImageView.setIcon(new ImageIcon(Alphabet.class.getResource("/kids_learner/Images/U.png")));
+    }//GEN-LAST:event_UActionPerformed
+
+    private void VActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_VActionPerformed
+        ImageView.setIcon(new ImageIcon(Alphabet.class.getResource("/kids_learner/Images/V.png")));
+    }//GEN-LAST:event_VActionPerformed
+
+    private void WActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_WActionPerformed
+        ImageView.setIcon(new ImageIcon(Alphabet.class.getResource("/kids_learner/Images/W.png")));
+    }//GEN-LAST:event_WActionPerformed
 
     /**
      * @param args the command line arguments
@@ -624,6 +715,7 @@ public class Alphabet extends javax.swing.JFrame {
     private javax.swing.JButton G;
     private javax.swing.JButton H;
     private javax.swing.JButton I;
+    private javax.swing.JLabel ImageView;
     private javax.swing.JButton J;
     private javax.swing.JButton K;
     private javax.swing.JButton L;
