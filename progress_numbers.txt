@@ -1,0 +1,8 @@
+wrong_no_add=1
+correct_no_add=2
+wrong_no_sub=0
+correct_no_sub=0
+wrong_no_mul=0
+correct_no_mul=0
+wrong_no_div=0
+correct_no_div=1
