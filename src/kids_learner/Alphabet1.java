@@ -8,6 +8,7 @@ import Kids_learner.Home;
 import java.awt.Image;
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
+import javax.swing.JLabel;
 
 /**
  *
@@ -502,214 +503,116 @@ public class Alphabet1 extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void AActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AActionPerformed
-        // TODO add your handling code here:
-        ImageIcon icon = new ImageIcon(Alphabet1.class.getResource("/kids_learner/Images/A.png"));
+    public void setImage(String imagePath) {
+        ImageIcon icon = new ImageIcon(Alphabet1.class.getResource(imagePath));
         Image img = icon.getImage();
         Image imgScale = img.getScaledInstance(ImageView.getWidth(), ImageView.getHeight(), Image.SCALE_SMOOTH);
         ImageIcon scaledIcon = new ImageIcon(imgScale);
         ImageView.setIcon(scaledIcon);
+    }
+
+    private void AActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AActionPerformed
+        setImage("/kids_learner/Images/A.png");
     }//GEN-LAST:event_AActionPerformed
 
     private void BActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BActionPerformed
-        // TODO add your handling code here:
-        ImageIcon icon = new ImageIcon(Alphabet1.class.getResource("/kids_learner/Images/B.png"));
-        Image img = icon.getImage();
-        Image imgScale = img.getScaledInstance(ImageView.getWidth(), ImageView.getHeight(), Image.SCALE_SMOOTH);
-        ImageIcon scaledIcon = new ImageIcon(imgScale);
-        ImageView.setIcon(scaledIcon);
+        setImage("/kids_learner/Images/B.png");
     }//GEN-LAST:event_BActionPerformed
 
     private void CActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CActionPerformed
-        ImageIcon icon = new ImageIcon(Alphabet1.class.getResource("/kids_learner/Images/C.png"));
-        Image img = icon.getImage();
-        Image imgScale = img.getScaledInstance(ImageView.getWidth(), ImageView.getHeight(), Image.SCALE_SMOOTH);
-        ImageIcon scaledIcon = new ImageIcon(imgScale);
-        ImageView.setIcon(scaledIcon);
+        setImage("/kids_learner/Images/C.png");
     }//GEN-LAST:event_CActionPerformed
 
     private void DActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DActionPerformed
-        ImageIcon icon = new ImageIcon(Alphabet1.class.getResource("/kids_learner/Images/D.png"));
-        Image img = icon.getImage();
-        Image imgScale = img.getScaledInstance(ImageView.getWidth(), ImageView.getHeight(), Image.SCALE_SMOOTH);
-        ImageIcon scaledIcon = new ImageIcon(imgScale);
-        ImageView.setIcon(scaledIcon);
+        setImage("/kids_learner/Images/D.png");
     }//GEN-LAST:event_DActionPerformed
 
     private void EActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_EActionPerformed
-        ImageIcon icon = new ImageIcon(Alphabet1.class.getResource("/kids_learner/Images/E.png"));
-        Image img = icon.getImage();
-        Image imgScale = img.getScaledInstance(ImageView.getWidth(), ImageView.getHeight(), Image.SCALE_SMOOTH);
-        ImageIcon scaledIcon = new ImageIcon(imgScale);
-        ImageView.setIcon(scaledIcon);
+        setImage("/kids_learner/Images/E.png");
     }//GEN-LAST:event_EActionPerformed
 
     private void FActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_FActionPerformed
-        ImageIcon icon = new ImageIcon(Alphabet1.class.getResource("/kids_learner/Images/F.png"));
-        Image img = icon.getImage();
-        Image imgScale = img.getScaledInstance(ImageView.getWidth(), ImageView.getHeight(), Image.SCALE_SMOOTH);
-        ImageIcon scaledIcon = new ImageIcon(imgScale);
-        ImageView.setIcon(scaledIcon);
+        setImage("/kids_learner/Images/F.png");
     }//GEN-LAST:event_FActionPerformed
 
     private void GActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_GActionPerformed
-        ImageIcon icon = new ImageIcon(Alphabet1.class.getResource("/kids_learner/Images/G.png"));
-        Image img = icon.getImage();
-        Image imgScale = img.getScaledInstance(ImageView.getWidth(), ImageView.getHeight(), Image.SCALE_SMOOTH);
-        ImageIcon scaledIcon = new ImageIcon(imgScale);
-        ImageView.setIcon(scaledIcon);
+        setImage("/kids_learner/Images/G.png");
     }//GEN-LAST:event_GActionPerformed
 
     private void HActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_HActionPerformed
-        ImageIcon icon = new ImageIcon(Alphabet1.class.getResource("/kids_learner/Images/H.png"));
-        Image img = icon.getImage();
-        Image imgScale = img.getScaledInstance(ImageView.getWidth(), ImageView.getHeight(), Image.SCALE_SMOOTH);
-        ImageIcon scaledIcon = new ImageIcon(imgScale);
-        ImageView.setIcon(scaledIcon);
+        setImage("/kids_learner/Images/H.png");
     }//GEN-LAST:event_HActionPerformed
 
     private void IActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_IActionPerformed
-        ImageIcon icon = new ImageIcon(Alphabet1.class.getResource("/kids_learner/Images/I.png"));
-        Image img = icon.getImage();
-        Image imgScale = img.getScaledInstance(ImageView.getWidth(), ImageView.getHeight(), Image.SCALE_SMOOTH);
-        ImageIcon scaledIcon = new ImageIcon(imgScale);
-        ImageView.setIcon(scaledIcon);
+        setImage("/kids_learner/Images/I.png");
     }//GEN-LAST:event_IActionPerformed
 
     private void JActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JActionPerformed
-        ImageIcon icon = new ImageIcon(Alphabet1.class.getResource("/kids_learner/Images/J.png"));
-        Image img = icon.getImage();
-        Image imgScale = img.getScaledInstance(ImageView.getWidth(), ImageView.getHeight(), Image.SCALE_SMOOTH);
-        ImageIcon scaledIcon = new ImageIcon(imgScale);
-        ImageView.setIcon(scaledIcon);
+        setImage("/kids_learner/Images/J.png");
     }//GEN-LAST:event_JActionPerformed
 
     private void KActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_KActionPerformed
-        ImageIcon icon = new ImageIcon(Alphabet1.class.getResource("/kids_learner/Images/K.png"));
-        Image img = icon.getImage();
-        Image imgScale = img.getScaledInstance(ImageView.getWidth(), ImageView.getHeight(), Image.SCALE_SMOOTH);
-        ImageIcon scaledIcon = new ImageIcon(imgScale);
-        ImageView.setIcon(scaledIcon);
+        setImage("/kids_learner/Images/K.png");
     }//GEN-LAST:event_KActionPerformed
 
     private void LActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LActionPerformed
-        ImageIcon icon = new ImageIcon(Alphabet1.class.getResource("/kids_learner/Images/L.png"));
-        Image img = icon.getImage();
-        Image imgScale = img.getScaledInstance(ImageView.getWidth(), ImageView.getHeight(), Image.SCALE_SMOOTH);
-        ImageIcon scaledIcon = new ImageIcon(imgScale);
-        ImageView.setIcon(scaledIcon);
+        setImage("/kids_learner/Images/L.png");
     }//GEN-LAST:event_LActionPerformed
 
     private void MActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MActionPerformed
-        ImageIcon icon = new ImageIcon(Alphabet1.class.getResource("/kids_learner/Images/M.png"));
-        Image img = icon.getImage();
-        Image imgScale = img.getScaledInstance(ImageView.getWidth(), ImageView.getHeight(), Image.SCALE_SMOOTH);
-        ImageIcon scaledIcon = new ImageIcon(imgScale);
-        ImageView.setIcon(scaledIcon);
+        setImage("/kids_learner/Images/M.png");
     }//GEN-LAST:event_MActionPerformed
 
     private void NActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_NActionPerformed
-        ImageIcon icon = new ImageIcon(Alphabet1.class.getResource("/kids_learner/Images/N.png"));
-        Image img = icon.getImage();
-        Image imgScale = img.getScaledInstance(ImageView.getWidth(), ImageView.getHeight(), Image.SCALE_SMOOTH);
-        ImageIcon scaledIcon = new ImageIcon(imgScale);
-        ImageView.setIcon(scaledIcon);
+        setImage("/kids_learner/Images/N.png");
     }//GEN-LAST:event_NActionPerformed
 
     private void OActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_OActionPerformed
-        ImageIcon icon = new ImageIcon(Alphabet1.class.getResource("/kids_learner/Images/O.png"));
-        Image img = icon.getImage();
-        Image imgScale = img.getScaledInstance(ImageView.getWidth(), ImageView.getHeight(), Image.SCALE_SMOOTH);
-        ImageIcon scaledIcon = new ImageIcon(imgScale);
-        ImageView.setIcon(scaledIcon);
+        setImage("/kids_learner/Images/O.png");
     }//GEN-LAST:event_OActionPerformed
 
     private void PActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PActionPerformed
-        ImageIcon icon = new ImageIcon(Alphabet1.class.getResource("/kids_learner/Images/P.png"));
-        Image img = icon.getImage();
-        Image imgScale = img.getScaledInstance(ImageView.getWidth(), ImageView.getHeight(), Image.SCALE_SMOOTH);
-        ImageIcon scaledIcon = new ImageIcon(imgScale);
-        ImageView.setIcon(scaledIcon);
+        setImage("/kids_learner/Images/P.png");
     }//GEN-LAST:event_PActionPerformed
 
     private void QActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_QActionPerformed
-        ImageIcon icon = new ImageIcon(Alphabet1.class.getResource("/kids_learner/Images/Q.png"));
-        Image img = icon.getImage();
-        Image imgScale = img.getScaledInstance(ImageView.getWidth(), ImageView.getHeight(), Image.SCALE_SMOOTH);
-        ImageIcon scaledIcon = new ImageIcon(imgScale);
-        ImageView.setIcon(scaledIcon);
+        setImage("/kids_learner/Images/Q.png");
     }//GEN-LAST:event_QActionPerformed
 
     private void RActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RActionPerformed
-        ImageIcon icon = new ImageIcon(Alphabet1.class.getResource("/kids_learner/Images/R.png"));
-        Image img = icon.getImage();
-        Image imgScale = img.getScaledInstance(ImageView.getWidth(), ImageView.getHeight(), Image.SCALE_SMOOTH);
-        ImageIcon scaledIcon = new ImageIcon(imgScale);
-        ImageView.setIcon(scaledIcon);
+        setImage("/kids_learner/Images/R.png");
     }//GEN-LAST:event_RActionPerformed
 
     private void SActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SActionPerformed
-        ImageIcon icon = new ImageIcon(Alphabet1.class.getResource("/kids_learner/Images/S.png"));
-        Image img = icon.getImage();
-        Image imgScale = img.getScaledInstance(ImageView.getWidth(), ImageView.getHeight(), Image.SCALE_SMOOTH);
-        ImageIcon scaledIcon = new ImageIcon(imgScale);
-        ImageView.setIcon(scaledIcon);
+        setImage("/kids_learner/Images/S.png");
     }//GEN-LAST:event_SActionPerformed
 
     private void TActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TActionPerformed
-        ImageIcon icon = new ImageIcon(Alphabet1.class.getResource("/kids_learner/Images/T.png"));
-        Image img = icon.getImage();
-        Image imgScale = img.getScaledInstance(ImageView.getWidth(), ImageView.getHeight(), Image.SCALE_SMOOTH);
-        ImageIcon scaledIcon = new ImageIcon(imgScale);
-        ImageView.setIcon(scaledIcon);
+        setImage("/kids_learner/Images/T.png");
     }//GEN-LAST:event_TActionPerformed
 
     private void UActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_UActionPerformed
-        ImageIcon icon = new ImageIcon(Alphabet1.class.getResource("/kids_learner/Images/U.png"));
-        Image img = icon.getImage();
-        Image imgScale = img.getScaledInstance(ImageView.getWidth(), ImageView.getHeight(), Image.SCALE_SMOOTH);
-        ImageIcon scaledIcon = new ImageIcon(imgScale);
-        ImageView.setIcon(scaledIcon);
+        setImage("/kids_learner/Images/U.png");
     }//GEN-LAST:event_UActionPerformed
 
     private void VActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_VActionPerformed
-        ImageIcon icon = new ImageIcon(Alphabet1.class.getResource("/kids_learner/Images/V.png"));
-        Image img = icon.getImage();
-        Image imgScale = img.getScaledInstance(ImageView.getWidth(), ImageView.getHeight(), Image.SCALE_SMOOTH);
-        ImageIcon scaledIcon = new ImageIcon(imgScale);
-        ImageView.setIcon(scaledIcon);
+        setImage("/kids_learner/Images/V.png");
     }//GEN-LAST:event_VActionPerformed
 
     private void WActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_WActionPerformed
-        ImageIcon icon = new ImageIcon(Alphabet1.class.getResource("/kids_learner/Images/W.png"));
-        Image img = icon.getImage();
-        Image imgScale = img.getScaledInstance(ImageView.getWidth(), ImageView.getHeight(), Image.SCALE_SMOOTH);
-        ImageIcon scaledIcon = new ImageIcon(imgScale);
-        ImageView.setIcon(scaledIcon);
+        setImage("/kids_learner/Images/W.png");
     }//GEN-LAST:event_WActionPerformed
 
     private void XActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_XActionPerformed
-        ImageIcon icon = new ImageIcon(Alphabet1.class.getResource("/kids_learner/Images/X.png"));
-        Image img = icon.getImage();
-        Image imgScale = img.getScaledInstance(ImageView.getWidth(), ImageView.getHeight(), Image.SCALE_SMOOTH);
-        ImageIcon scaledIcon = new ImageIcon(imgScale);
-        ImageView.setIcon(scaledIcon);
+        setImage("/kids_learner/Images/X.png");
     }//GEN-LAST:event_XActionPerformed
 
     private void YActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_YActionPerformed
-        ImageIcon icon = new ImageIcon(Alphabet1.class.getResource("/kids_learner/Images/Y.png"));
-        Image img = icon.getImage();
-        Image imgScale = img.getScaledInstance(ImageView.getWidth(), ImageView.getHeight(), Image.SCALE_SMOOTH);
-        ImageIcon scaledIcon = new ImageIcon(imgScale);
-        ImageView.setIcon(scaledIcon);
+        setImage("/kids_learner/Images/Y.png");
     }//GEN-LAST:event_YActionPerformed
 
     private void ZActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ZActionPerformed
-        ImageIcon icon = new ImageIcon(Alphabet1.class.getResource("/kids_learner/Images/Z.png"));
-        Image img = icon.getImage();
-        Image imgScale = img.getScaledInstance(ImageView.getWidth(), ImageView.getHeight(), Image.SCALE_SMOOTH);
-        ImageIcon scaledIcon = new ImageIcon(imgScale);
-        ImageView.setIcon(scaledIcon);
+        setImage("/kids_learner/Images/Z.png");
     }//GEN-LAST:event_ZActionPerformed
 
     private void backActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_backActionPerformed
@@ -784,4 +687,5 @@ public class Alphabet1 extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel3;
     // End of variables declaration//GEN-END:variables
+
 }
