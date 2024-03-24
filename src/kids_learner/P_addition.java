@@ -4,10 +4,7 @@
  */
 package Kids_learner;
 
-import static Kids_learner.ProgressNumber.updateProgress;
-import java.io.BufferedReader;
 import java.io.BufferedWriter;
-import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Random;
@@ -391,7 +388,8 @@ public class P_addition extends javax.swing.JFrame {
     }//GEN-LAST:event_jLabel5MouseClicked
 
     private void jLabel6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel6MouseClicked
-                
+        // calculation
+        
         String number1,number2,answer;
         number1 = n1.getText();
         number2 = n2.getText();

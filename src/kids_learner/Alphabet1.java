@@ -8,7 +8,6 @@ import Kids_learner.Home;
 import java.awt.Image;
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
-import javax.swing.JLabel;
 
 /**
  *
@@ -510,7 +509,6 @@ public class Alphabet1 extends javax.swing.JFrame {
         ImageIcon scaledIcon = new ImageIcon(imgScale);
         ImageView.setIcon(scaledIcon);
     }
-
     private void AActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AActionPerformed
         setImage("/kids_learner/Images/A.png");
     }//GEN-LAST:event_AActionPerformed
@@ -687,5 +685,4 @@ public class Alphabet1 extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel3;
     // End of variables declaration//GEN-END:variables
-
 }

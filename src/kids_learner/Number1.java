@@ -263,52 +263,84 @@ public class Number1 extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    public void setImage(String imagePath) {
-        ImageIcon icon = new ImageIcon(Number1.class.getResource(imagePath));
+    private void N1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_N1ActionPerformed
+        ImageIcon icon = new ImageIcon(Number1.class.getResource("/kids_learner/Images/1.png"));
         Image img = icon.getImage();
         Image imgScale = img.getScaledInstance(ImageView.getWidth(), ImageView.getHeight(), Image.SCALE_SMOOTH);
         ImageIcon scaledIcon = new ImageIcon(imgScale);
         ImageView.setIcon(scaledIcon);
-    }
-    
-    private void N1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_N1ActionPerformed
-        setImage("/kids_learner/Images/1.png");
     }//GEN-LAST:event_N1ActionPerformed
 
     private void N2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_N2ActionPerformed
-        setImage("/kids_learner/Images/2.png");
+        ImageIcon icon = new ImageIcon(Number1.class.getResource("/kids_learner/Images/2.png"));
+        Image img = icon.getImage();
+        Image imgScale = img.getScaledInstance(ImageView.getWidth(), ImageView.getHeight(), Image.SCALE_SMOOTH);
+        ImageIcon scaledIcon = new ImageIcon(imgScale);
+        ImageView.setIcon(scaledIcon);
     }//GEN-LAST:event_N2ActionPerformed
 
     private void N3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_N3ActionPerformed
-        setImage("/kids_learner/Images/3.png");
+        ImageIcon icon = new ImageIcon(Number1.class.getResource("/kids_learner/Images/3.png"));
+        Image img = icon.getImage();
+        Image imgScale = img.getScaledInstance(ImageView.getWidth(), ImageView.getHeight(), Image.SCALE_SMOOTH);
+        ImageIcon scaledIcon = new ImageIcon(imgScale);
+        ImageView.setIcon(scaledIcon);
     }//GEN-LAST:event_N3ActionPerformed
 
     private void N4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_N4ActionPerformed
-        setImage("/kids_learner/Images/4.png");
+        ImageIcon icon = new ImageIcon(Number1.class.getResource("/kids_learner/Images/4.png"));
+        Image img = icon.getImage();
+        Image imgScale = img.getScaledInstance(ImageView.getWidth(), ImageView.getHeight(), Image.SCALE_SMOOTH);
+        ImageIcon scaledIcon = new ImageIcon(imgScale);
+        ImageView.setIcon(scaledIcon);
     }//GEN-LAST:event_N4ActionPerformed
 
     private void N5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_N5ActionPerformed
-        setImage("/kids_learner/Images/5.png");
+        ImageIcon icon = new ImageIcon(Number1.class.getResource("/kids_learner/Images/5.png"));
+        Image img = icon.getImage();
+        Image imgScale = img.getScaledInstance(ImageView.getWidth(), ImageView.getHeight(), Image.SCALE_SMOOTH);
+        ImageIcon scaledIcon = new ImageIcon(imgScale);
+        ImageView.setIcon(scaledIcon);
     }//GEN-LAST:event_N5ActionPerformed
 
     private void N6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_N6ActionPerformed
-        setImage("/kids_learner/Images/6.png");
+        ImageIcon icon = new ImageIcon(Number1.class.getResource("/kids_learner/Images/6.png"));
+        Image img = icon.getImage();
+        Image imgScale = img.getScaledInstance(ImageView.getWidth(), ImageView.getHeight(), Image.SCALE_SMOOTH);
+        ImageIcon scaledIcon = new ImageIcon(imgScale);
+        ImageView.setIcon(scaledIcon);
     }//GEN-LAST:event_N6ActionPerformed
 
     private void N7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_N7ActionPerformed
-        setImage("/kids_learner/Images/7.png");
+        ImageIcon icon = new ImageIcon(Number1.class.getResource("/kids_learner/Images/7.png"));
+        Image img = icon.getImage();
+        Image imgScale = img.getScaledInstance(ImageView.getWidth(), ImageView.getHeight(), Image.SCALE_SMOOTH);
+        ImageIcon scaledIcon = new ImageIcon(imgScale);
+        ImageView.setIcon(scaledIcon);
     }//GEN-LAST:event_N7ActionPerformed
 
     private void N8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_N8ActionPerformed
-        setImage("/kids_learner/Images/8.png");
+        ImageIcon icon = new ImageIcon(Number1.class.getResource("/kids_learner/Images/8.png"));
+        Image img = icon.getImage();
+        Image imgScale = img.getScaledInstance(ImageView.getWidth(), ImageView.getHeight(), Image.SCALE_SMOOTH);
+        ImageIcon scaledIcon = new ImageIcon(imgScale);
+        ImageView.setIcon(scaledIcon);
     }//GEN-LAST:event_N8ActionPerformed
 
     private void N9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_N9ActionPerformed
-        setImage("/kids_learner/Images/9.png");
+        ImageIcon icon = new ImageIcon(Number1.class.getResource("/kids_learner/Images/9.png"));
+        Image img = icon.getImage();
+        Image imgScale = img.getScaledInstance(ImageView.getWidth(), ImageView.getHeight(), Image.SCALE_SMOOTH);
+        ImageIcon scaledIcon = new ImageIcon(imgScale);
+        ImageView.setIcon(scaledIcon);
     }//GEN-LAST:event_N9ActionPerformed
 
     private void N10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_N10ActionPerformed
-        setImage("/kids_learner/Images/10.png");
+        ImageIcon icon = new ImageIcon(Number1.class.getResource("/kids_learner/Images/10.png"));
+        Image img = icon.getImage();
+        Image imgScale = img.getScaledInstance(ImageView.getWidth(), ImageView.getHeight(), Image.SCALE_SMOOTH);
+        ImageIcon scaledIcon = new ImageIcon(imgScale);
+        ImageView.setIcon(scaledIcon);
     }//GEN-LAST:event_N10ActionPerformed
 
     private void backActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_backActionPerformed

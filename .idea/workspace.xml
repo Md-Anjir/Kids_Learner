@@ -4,13 +4,69 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="869e9701-9345-4feb-8bd6-498d064c214b" name="Changes" comment="full software complete" />
+    <list default="true" id="869e9701-9345-4feb-8bd6-498d064c214b" name="Changes" comment="refactore code">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kids_learner/Alphabet.form" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kids_learner/Alphabet.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kids_learner/Alphabet1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kids_learner/Alphabet1$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kids_learner/Alphabet1$11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kids_learner/Alphabet1$12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kids_learner/Alphabet1$13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kids_learner/Alphabet1$14.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kids_learner/Alphabet1$15.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kids_learner/Alphabet1$16.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kids_learner/Alphabet1$17.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kids_learner/Alphabet1$18.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kids_learner/Alphabet1$19.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kids_learner/Alphabet1$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kids_learner/Alphabet1$20.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kids_learner/Alphabet1$21.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kids_learner/Alphabet1$22.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kids_learner/Alphabet1$23.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kids_learner/Alphabet1$24.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kids_learner/Alphabet1$25.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kids_learner/Alphabet1$26.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kids_learner/Alphabet1$27.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kids_learner/Alphabet1$28.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kids_learner/Alphabet1$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kids_learner/Alphabet1$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kids_learner/Alphabet1$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kids_learner/Alphabet1$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kids_learner/Alphabet1$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kids_learner/Alphabet1$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kids_learner/Alphabet1$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kids_learner/Alphabet1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kids_learner/Number1$12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kids_learner/Number1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kids_learner/Number1.form" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kids_learner/Number1.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kids_learner/P_addition$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kids_learner/P_addition$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kids_learner/P_addition$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kids_learner/P_addition$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kids_learner/P_addition$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kids_learner/P_addition$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kids_learner/P_addition$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kids_learner/P_addition$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kids_learner/P_addition$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kids_learner/P_addition$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kids_learner/P_addition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kids_learner/P_addition.form" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kids_learner/P_addition.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manifest.mf" beforeDir="false" afterPath="$PROJECT_DIR$/manifest.mf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/build-impl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/build-impl.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/genfiles.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/genfiles.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/private/private.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/private/private.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kids_learner/Alphabet1.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/kids_learner/Alphabet1.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kids_learner/Alphabet1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kids_learner/Alphabet1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kids_learner/Number1.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/kids_learner/Number1.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kids_learner/Number1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kids_learner/Number1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kids_learner/P_addition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kids_learner/P_addition.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="master" />
@@ -45,6 +101,21 @@
     "last_opened_file_path": "E:/Java/Kids_Learner"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Kids_Learner" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Kids_Learner" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -53,7 +124,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710214582618</updated>
-      <workItem from="1710214585579" duration="1253000" />
+      <workItem from="1710214585579" duration="2506000" />
+      <workItem from="1710224386532" duration="81000" />
+      <workItem from="1711298093798" duration="836000" />
+      <workItem from="1711299248452" duration="1028000" />
     </task>
     <task id="LOCAL-00001" summary="full software complete">
       <created>1710214757464</created>
@@ -69,7 +143,28 @@
       <option name="project" value="LOCAL" />
       <updated>1710215597341</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="full software complete">
+      <created>1710216199856</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710216199857</updated>
+    </task>
+    <task id="LOCAL-00004" summary="refactore code">
+      <created>1711298357863</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1711298357863</updated>
+    </task>
+    <task id="LOCAL-00005" summary="refactore code">
+      <created>1711298538288</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1711298538288</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +208,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="full software complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="full software complete" />
+    <MESSAGE value="refactore code" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactore code" />
   </component>
 </project>
