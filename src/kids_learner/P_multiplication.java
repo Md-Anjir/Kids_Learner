@@ -352,12 +352,12 @@ public class P_multiplication extends javax.swing.JFrame {
 
     private void jLabel5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel5MouseClicked
         // generate new random number
-        int num1,num2,answer;
+         int num1,num2,answer, bound1=6, bound2=11;
 
         Random rand = new Random();
 
-        num1 = rand.nextInt(6);
-        num2 = rand.nextInt(11);
+        num1 = rand.nextInt(bound1);
+        num2 = rand.nextInt(bound2);
 
         n1.setText(Integer.toString(num1));
         n2.setText(Integer.toString(num2));

@@ -93,7 +93,7 @@
                       <Component id="jPanel9" max="32767" attributes="0"/>
                       <Component id="jPanel4" max="32767" attributes="0"/>
                       <Component id="jPanel10" max="32767" attributes="0"/>
-                      <Component id="jPanel5" pref="0" max="32767" attributes="0"/>
+                      <Component id="jPanel5" pref="73" max="32767" attributes="0"/>
                       <Component id="ansText" max="32767" attributes="0"/>
                   </Group>
                   <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>

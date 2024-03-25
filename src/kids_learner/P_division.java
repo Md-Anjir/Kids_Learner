@@ -356,12 +356,12 @@ public class P_division extends javax.swing.JFrame {
 
     private void jLabel5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel5MouseClicked
         // generate new random number
-        int num1,num2,answer;
+        int num1,num2,answer, bound1=40, bound2=20;
 
         Random rand = new Random();
 
-        num1 = rand.nextInt(40)+1;
-        num2 = rand.nextInt(20)+1;
+        num1 = rand.nextInt(bound1)+1;
+        num2 = rand.nextInt(bound2)+1;
         
         
         if(num1%2==1) num1++;

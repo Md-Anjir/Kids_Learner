@@ -360,12 +360,12 @@ public class P_subtraction extends javax.swing.JFrame {
 
     private void jLabel5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel5MouseClicked
         // generate new random number
-        int num1,num2,answer;
-
+        int num1,num2,answer ,bound=51;
+        
         Random rand = new Random();
-
-        num1 = rand.nextInt(51);
-        num2 = rand.nextInt(51);
+        
+        num1 = rand.nextInt(bound);
+        num2 = rand.nextInt(bound);
         
         //swapping two number.........
         if(num1<num2)
